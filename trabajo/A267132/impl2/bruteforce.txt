@@ -1,0 +1,5 @@
+1 unipotent=1 squares_of_unipotent=1
+2 unipotent=4 squares_of_unipotent=1
+3 unipotent=64 squares_of_unipotent=22
+4 unipotent=4096 squares_of_unipotent=316
+5 unipotent=1048576 squares_of_unipotent=85096

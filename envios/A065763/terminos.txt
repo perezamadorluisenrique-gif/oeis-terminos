@@ -1,0 +1,5 @@
+# A065763: términos nuevos (n a(n)), confirmados por dos implementaciones independientes
+25 16600195
+26 33298157
+27 66683210
+28 133633401

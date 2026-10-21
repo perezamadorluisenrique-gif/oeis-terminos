@@ -1,0 +1,14 @@
+# Verificación de A053660
+
+- Términos conocidos (ficha en oeis/oeisdata, comprobada el 2026-10-20 y por WebFetch cuando fue posible): n = 1..11.
+- Términos nuevos: n = 12..40 (29 términos).
+- impl1 e impl2 se escribieron por separado (impl2 por un subagente sin ver impl1); ambas reproducen todos los términos conocidos y coinciden en todos los nuevos.
+
+## Notas del cálculo
+
+
+- Ficha (oeisdata, clon del 2026-10-20, %I #8 del 10-01-2022): n=1..11 (a(8)-a(11) de Sean A. Irvine, 2022), `more`, sin b-file.
+- Método: el de A053658 con q=4, p=2 (`../A053658/impl1/glq_orders.py 4 40 impl1.txt`); ver `../A053658/NOTAS.md`.
+- impl2 (`impl2/`, subagente sin ver impl1) con fuerza bruta de GL(n,4) para n ≤ 3.
+- Coinciden en n=1..40 y reproducen n=1..11. impl1: 24 s.
+ALGORITMO NUEVO: lo publicado llega a n=11 (Irvine 2022), coherente con recorrer clases de conjugación de GL(n,4); aquí el conjunto de órdenes se caracteriza por una fórmula de coste (mochila sobre grados con los órdenes de los polinomios irreducibles, más el bloque unipotente mínimo, que puede ir en una componente x−c de grado 1) y se cuenta sin tocar el grupo: n=40 en 24 s.

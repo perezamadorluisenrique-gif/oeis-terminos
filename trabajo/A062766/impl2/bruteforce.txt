@@ -1,0 +1,9 @@
+GL(1,2) |G|=1 distinct=1 orders: 1
+GL(2,2) |G|=6 distinct=3 orders: 1 2 3
+GL(3,2) |G|=168 distinct=5 orders: 1 2 3 4 7
+GL(4,2) |G|=20160 distinct=8 orders: 1 2 3 4 5 6 7 15
+GL(5,2) |G|=9999360 distinct=13 orders: 1 2 3 4 5 6 7 8 12 14 15 21 31
+AGL(1,2) |G|=2 distinct=2 orders: 1 2
+AGL(2,2) |G|=24 distinct=4 orders: 1 2 3 4
+AGL(3,2) |G|=1344 distinct=6 orders: 1 2 3 4 6 7
+AGL(4,2) |G|=322560 distinct=11 orders: 1 2 3 4 5 6 7 8 12 14 15

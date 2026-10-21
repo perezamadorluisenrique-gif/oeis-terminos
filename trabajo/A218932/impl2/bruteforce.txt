@@ -1,0 +1,11 @@
+# n  A218932 A218935 A218949 A218975  (brute force: subgroups generated as sets, classes by conjugation BFS)
+0 1 1 1 1
+1 1 1 1 1
+2 1 1 1 0
+3 2 2 1 1
+4 3 3 2 1
+5 3 4 3 1
+6 5 6 4 2
+7 6 8 5 1
+8 11 12 6 3
+# n=9 brute force exceeded the 18 min timeout; not completed
